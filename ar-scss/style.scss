@@ -277,7 +277,7 @@ nav.nav{
         color: $main;
       }
     }
-    input[type="submit"]{
+    button{
       width: 100px;
       height: 40px;
       @include noBorder();
@@ -683,7 +683,7 @@ aside.showAside{
       i{
         display: flex;
       }
-      img{
+      .imgg{
         display: none;
       }
     }

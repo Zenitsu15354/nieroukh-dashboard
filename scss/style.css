@@ -264,7 +264,7 @@ nav.nav .logo span {
 .login .form input[type=text]::placeholder, .login .form input[type=password]::placeholder {
   color: #D30202;
 }
-.login .form input[type=submit] {
+.login .form button {
   width: 100px;
   height: 40px;
   border: none;
@@ -277,7 +277,7 @@ nav.nav .logo span {
   cursor: pointer;
   transition: 0.2s;
 }
-.login .form input[type=submit]:hover {
+.login .form button:hover {
   background-color: #a31318;
 }
 .login h2 {
@@ -707,7 +707,7 @@ aside.showAside {
   nav .logo i {
     display: flex;
   }
-  nav .logo img {
+  nav .logo .imgg {
     display: none;
   }
   nav a {
